@@ -1,0 +1,14 @@
+{
+  "classes": [
+    "application_form",
+    "invoice",
+    "receipt",
+    "resume"
+  ],
+  "metrics": {
+    "accuracy": 1.0,
+    "f1_weighted": 1.0,
+    "precision": 1.0,
+    "recall": 1.0
+  }
+}

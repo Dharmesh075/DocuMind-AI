@@ -1,0 +1,26 @@
+{
+  "name": "documind-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "node scripts/build_css.mjs",
+    "dev": "node scripts/build_css.mjs && next dev -p 3000",
+    "build": "node scripts/build_css.mjs && next build",
+    "start": "next start -p 3000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "^1.70.0",
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4.3.4",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.3.4",
+    "typescript": "^5"
+  }
+}
